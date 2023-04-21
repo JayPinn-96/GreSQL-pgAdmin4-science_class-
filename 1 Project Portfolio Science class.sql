@@ -14,7 +14,7 @@ SELECT * FROM science_class WHERE science_marks BETWEEN 35 AND 60;
 /*Retrieve all other students data*/
 SELECT * FROM science_class WHERE science_marks NOT BETWEEN 35 and 60;
 
-/*Updated a students marks, Deleted the row containing the student called "Robb" andrenamed the column "Name" to "student_name"*/
+/*Updated a students marks, Deleted the row containing the student called "Robb" and renamed the column "Name" to "student_name"*/
 UPDATE TABLE science_class SET science_marks=45 WHERE name='Popeye';
 DELETE FROM science_class WHERE name='Robb';
 ALTER TABLE science_class RENAME COLUMN name to student_name;
