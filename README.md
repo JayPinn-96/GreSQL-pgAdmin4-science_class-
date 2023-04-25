@@ -1,6 +1,6 @@
-# Jamal's Data Analyst Portfolio
+# Jamal's Data Analyst Portfolio :wave:
 
-## Analysis of the Citibikes data in New York city using Excell
+## Analysis of the Citibikes data in New York city using Excell :bike:
 - Set up a spreadsheet on google sheets, where I imported NY citi bike data for the past year,
 - Was given a task to find the answers to 5 questions:
 ..What are the most popular pick-up locations across the city for Bike rental?
@@ -16,4 +16,10 @@
 - I created a column chart showing the average trip duration across different age groups,
 - I created another bar chart for the number of bike rentals per age group,
 - I also produced a stacked stepped area chart for weekday and user type (being one-time users or a subscriber),
-- The final graph I created was a scatter plot which plottd the age of the riders and the length of the trip
+- The final graph I created was a scatter plot which plottd the age of the riders and the length of the trip,
+
+## Short analysis of science, maths and english marks in a classroom using PostgreSQL :open_book:
+- Description of the steps taken in the project document,
+
+## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair:
+- Description of the steps taken in the project document,
