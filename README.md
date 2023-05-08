@@ -21,7 +21,7 @@
 ## Short analysis of science, maths and english marks in a classroom using PostgreSQL :open_book:
 - Description of the steps taken in the project document,
 
-## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair: 
+## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair: Project Portfolio US Supermarket.sql
 - Description of the steps taken in the project document,
 
 ## Analysis of Hotel Revenue 🏨 SQL data analysis.sql/ Power BI Hotels Presentation.pbix
