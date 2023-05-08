@@ -21,10 +21,10 @@
 ## Short analysis of science, maths and english marks in a classroom using PostgreSQL :open_book:
 - Description of the steps taken in the project document,
 
-## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair:
+## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair: 
 - Description of the steps taken in the project document,
 
-## Analysis of Hotel Revenue 🏨 SQL data analysis.sql/ 
+## Analysis of Hotel Revenue 🏨 SQL data analysis.sql/ Power BI Hotels Presentation.pbix
 - I built a visual data dashboard using data from an excell spreadsheet and Power BI to present answers to three questions:
 1. Is the hotel revenue growingby year?
 2. Should they increase their parkinglot size?
