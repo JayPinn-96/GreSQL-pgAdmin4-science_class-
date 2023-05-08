@@ -24,7 +24,7 @@
 ## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair:
 - Description of the steps taken in the project document,
 
-## Analysis of Hotel Revenue 🏨
+## Analysis of Hotel Revenue 🏨 SQL data analysis.sql/ 
 - I built a visual data dashboard using data from an excell spreadsheet and Power BI to present answers to three questions:
 1. Is the hotel revenue growingby year?
 2. Should they increase their parkinglot size?
