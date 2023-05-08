@@ -24,10 +24,30 @@
 ## Analysis of product, customer and sales of a US supermarket using PostgreSQL :chair:
 - Description of the steps taken in the project document,
 
-## Analysis of Hotel Revenue
+## Analysis of Hotel Revenue 🏨
 - I built a visual data dashboard using data from an excell spreadsheet and Power BI to present answers to three questions:
-- 1. Is the hotel revenue growingby year?
-- 2. Should they increase their parkinglot size?
-- 3. What trends can we see in the data?
-- Initially uploaded the data to Microsoft SQL Server Management Studio, where I created a column for revenue,
-- I also had to connect the hotels table to the market segment and meal cost tables,
+1. Is the hotel revenue growingby year?
+2. Should they increase their parkinglot size?
+3. What trends can we see in the data?
+- Initially uploaded the data to Microsoft SQL Server Management Studio, where I created a column for revenue (SELECT
+arrival_date_year,
+hotel,
+round(sum((stays_in_week_nights+stays_in_weekend_nights)*adr),2) as revenue
+from hotels
+group by arrival_date_year, hotel),
+- I also had to join the hotels table to the market segment and meal cost tables (SELECT * FROM hotels
+LEFT JOIN dbo.market_segment$
+on hotels.market_segment = market_segment$.market_segment
+LEFT JOIN dbo.meal_cost$
+on meal_cost$.meal = hotels.meal),
+- Data was imported into Power BI,
+- Had to create the revenue column in Power BI usig 'stays in the week' and 'stays in the weekend' and the discount,
+- I imported this revenue into the visual presentation,
+- I imported the adr into the visual presentation and converted it into the average figure,
+- I also found the percentage of the average discount of hotel stays, 
+- I made a new calculations by combining stays in the week and stays in the wekend for a 'Total Nights' column,
+- I added 2 filters, one which allowed a filter by the country the hotels are in and the other which filtered for the type of hotel,
+- I created a line graph plotting theaverage adr, the total nights the hotels were stayed in and the average discount applied on the on the revenue,
+- I then increased the page size to fit more data,
+- I created a measure for the amount of parking percentage used, and created a table to put this in, whilst also creating a pie chart that displayed the revenue of each type of hotel,
+- Evidence shows there is nota large need for more parking spaces (2.36% of parking spaces filled on average).
