@@ -1,5 +1,7 @@
 # Jamal's Data Analyst Portfolio :wave:
 
+## Microsoft Excell | MySQL | Microsoft SQL Server Management Studio | PostgreSQL | Pycharm (Python) | Power BI
+
 ## Analysis of the Citibikes data in New York city using Excell :bike: jay_Copy of New York Citi Bikes_Raw Data.xlsx
 - Set up a spreadsheet on google sheets, where I imported NY citi bike data for the past year,
 - Was given a task to find the answers to 5 questions:
