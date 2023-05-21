@@ -1,6 +1,6 @@
 # Jamal's Data Analyst Portfolio :wave:
 
-## Microsoft Excell | MySQL | Microsoft SQL Server Management Studio | PostgreSQL | Pycharm (Python) | Power BI
+## Microsoft Excell | MySQL | Microsoft SQL Server Management Studio | PostgreSQL | Pycharm (Python) | Jupyter Notebook | Power BI
 
 ## Analysis of the Citibikes data in New York city using Excell :bike: jay_Copy of New York Citi Bikes_Raw Data.xlsx
 - Set up a spreadsheet on google sheets, where I imported NY citi bike data for the past year,
@@ -53,3 +53,11 @@ on meal_cost$.meal = hotels.meal),
 - I then increased the page size to fit more data,
 - I created a measure for the amount of parking percentage used, and created a table to put this in, whilst also creating a pie chart that displayed the revenue of each type of hotel,
 - Evidence shows there is nota large need for more parking spaces (2.36% of parking spaces filled on average).
+
+## Analysis of House Pricing using Python in Jupyter Notebook
+- Imported data regarding house prices and predictor variables into Jupyter Notebook,
+- Used descriptive analysis to describe and cleaned all the data,
+- Converted categorical data to integer columns,
+- Deleted all outliers,
+- Used a correlation matrix to assess for multicollinearity,
+- Conducted multiple linear regression on the predictors and the dependent variable of house prices,
