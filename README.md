@@ -54,10 +54,11 @@ on meal_cost$.meal = hotels.meal),
 - I created a measure for the amount of parking percentage used, and created a table to put this in, whilst also creating a pie chart that displayed the revenue of each type of hotel,
 - Evidence shows there is nota large need for more parking spaces (2.36% of parking spaces filled on average).
 
-## Analysis of House Pricing using Python in Jupyter Notebook
+## Analysis of House Pricing using Python in Jupyter Notebook 🏠 House_Price.ipynb
 - Imported data regarding house prices and predictor variables into Jupyter Notebook,
 - Used descriptive analysis to describe and cleaned all the data,
 - Converted categorical data to integer columns,
 - Deleted all outliers,
 - Used a correlation matrix to assess for multicollinearity,
 - Conducted multiple linear regression on the predictors and the dependent variable of house prices,
+- The predictorsthat were most significant at determining house prices were air quality, hospital room numbers, amount of teachers, the proportion of the poor population and the average distance the houseis from work offices.
