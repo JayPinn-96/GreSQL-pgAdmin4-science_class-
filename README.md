@@ -18,7 +18,7 @@
 - I created a column chart showing the average trip duration across different age groups,
 - I created another bar chart for the number of bike rentals per age group,
 - I also produced a stacked stepped area chart for weekday and user type (being one-time users or a subscriber),
-- The final graph I created was a scatter plot which plottd the age of the riders and the length of the trip,
+- The final graph I created was a scatter plot which plotted the age of the riders and the length of the trip,
 
 ## Short analysis of science, maths and english marks in a classroom using PostgreSQL :open_book: 1 Project Portfolio Science class.sql
 - Description of the steps taken in the project document,
